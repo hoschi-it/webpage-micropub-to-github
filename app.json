@@ -15,20 +15,24 @@
     },
     "MICROPUB_GITHUB_USER": {
       "description": "The GitHub user to which the configured repositories belongs.",
-      "required": true
+      "required": true,
+      "value": "hoschi-it"
     },
     "MICROPUB_GITHUB_BRANCH": {
       "description": "Branch to use when pushing. Leave empty/blank to use default.",
-      "required": false
+      "required": false,
+      "value": "main"
     },
 
     "MICROPUB_SITE_GITHUB_REPO": {
       "description": "The name of your GitHub repository.",
-      "required": true
+      "required": true,
+      "value": "hoschi-it.de"
     },
     "MICROPUB_SITE_URL": {
       "description": "The URL to your site.",
-      "required": true
+      "required": true,
+      "value": "https://hoschi-it.de"
     },
 
     "MICROPUB_TOKEN_ENDPOINT": {
@@ -43,7 +47,8 @@
 
     "MICROPUB_OPTION_DERIVE_LANGUAGES": {
       "description": "A comma separated list of languages to autodetect. Eg: eng,swe",
-      "required": false
+      "required": false,
+      "value": "eng,deu"
     }
   },
   "buildpacks": [

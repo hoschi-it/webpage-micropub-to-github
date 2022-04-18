@@ -29,7 +29,7 @@ This project contains a [https://yarnpkg.com/](Yarn) lock file which is a faster
 
 Install as a normal Node.js application. Add the required [configuration](#configuration) values via environment variables or similar mechanism. Or deploy to Heroku:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/voxpelli/webpage-micropub-to-github)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hoschi-it/webpage-micropub-to-github)
 
 ## Endpoint discovery
 
